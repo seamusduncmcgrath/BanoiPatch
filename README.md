@@ -16,10 +16,12 @@
 * **Removed .pak CRC Checks:** Allows you to edit the .pak files without the game crashing.
 * **Screenshot Hotkey:** Allows you to take screenshots using the F5 key, screenshots will be saved in either `Dead Island\DI\out\ScreenShots` or `Documents\deadisland\out\ScreenShots`
 * **Increased FOV:** Allows you to increase or decrease the FOV using the + or - keys in game, or set it in the `.ini`.
+* **Fix for 32 thread CPUs:** The game can crash when using CPUs with 32 threads, I've patched it by capping the games threads to 31, this has no effect on performance as the game normally can only use 4.
 * **(Optional) Developer Menu:** Enables the developer menu without having to replace the `game_x86_rwdi.dll`.
 * **(Optional) Improved Shadow Quality:** All static objects are now included in shadow maps, along with generally improved quality.
 * **(Optional) Improved Draw Distance:** Vastly improved draw distance and pop in, at the cost of performance and some minor visual issues in some maps.
-* Features marked with (Optional) can all be toggled with the `BanoiPatch.ini`
+  
+*Features marked with (Optional) can all be toggled with the `BanoiPatch.ini`*
 
 ## Install Guide
 
@@ -31,3 +33,6 @@
 > **Download** [xinput1_3.dll](https://github.com/seamusduncmcgrath/BanoiPatch/releases/latest/download/xinput1_3.dll)
 > 
 > Simply add the xinput1_3.dll file into the game folder next to `DeadIslandGame.exe`.
+
+
+## Credits
