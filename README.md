@@ -42,7 +42,7 @@ Optional BanoiPatch settings can be enabled or adjusted using BanoiPatch.ini. Cr
 ```ini
 [Settings]
 
-;You can change the FOV multipler with this, I reccomend 1.2
+;You can change the FOV multipler with this, I recommend 1.2
 FOVMultiplier=1.0
 
 ;Enables the developer menu
