@@ -37,7 +37,7 @@
 > Simply add the xinput1_3.dll file into the game folder next to `DeadIslandGame.exe`.
 
 ## Config File
-Optional BanoiPatch settings can be enabled or adjusted using BanoiPatch.ini. Create this file in the game directory (next to DeadIslandGame.exe) and add the following:
+Optional BanoiPatch settings can be enabled or adjusted using `BanoiPatch.ini`. Create this file in the game directory and add the following:
 
 ```ini
 [Settings]
