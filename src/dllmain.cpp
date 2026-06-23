@@ -289,7 +289,7 @@ void __fastcall hkCUIFrame(void* pThis_ecx, void* edx, void* pThis_stack)
         float screenYfloat = static_cast<float>(screenY); //and turn it to a float
 
         float multiplier = screenYfloat / 720.0f; //720p should be 1.0f
-        *pMouseSensitivity = 20.0f * multiplier;
+        *pMouseSensitivity = 1.0f * multiplier;
     }
 }
 
